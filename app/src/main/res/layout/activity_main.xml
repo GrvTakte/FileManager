@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#CC6699"
     tools:context="project.recycler.com.filehandling.MainActivity">
 
     <TextView
@@ -36,4 +37,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/button_ext_card"
         android:text="External card"/>
+
+    <Button
+        android:id="@+id/button_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Video / Audio"/>
+
+
 </LinearLayout>
