@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    android:background="#CC6699"
+    android:background="#ef5555"
     tools:context="project.recycler.com.filehandling.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="FileHandling Application"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,28 +21,49 @@
 
 
     <Button
-        android:id="@+id/button_file_manager"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Open file manager"/>
-
-    <Button
-        android:id="@+id/button_file_manager_folder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Open folder from file manager"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_ext_card"
-        android:text="External card"/>
-
-    <Button
+        android:layout_gravity="center"
         android:id="@+id/button_video"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Video / Audio"/>
+        android:text="Select Video / Audio"
+        />
+
+
+    <Button
+        android:id="@+id/button_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select PDF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_game"
+        android:text="Open game"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_movies"
+        android:text="Movies"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_news_paper"
+        android:text="News paper"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_music"
+        android:text="Music"/>
+
 
 
 </LinearLayout>
