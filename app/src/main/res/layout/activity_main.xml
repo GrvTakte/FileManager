@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_game"
-        android:text="Open game"/>
+        android:text="Open Candy crush saga game"/>
 
     <TextView
         android:layout_width="match_parent"
