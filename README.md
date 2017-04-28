@@ -7,5 +7,5 @@ Note:- Before install this application you have to install ES file explorer on y
 * 3) MediaPlayerController *
 * 4) VideoView *
 
-## ** Concept behind this project:- **
+** Concept behind this project:- **
 * With the use of this project you can access 'Audio', 'Video' and 'PDF' file from this application so you can able to listen music, watch video, and all kind of stuff related to these content.   *
